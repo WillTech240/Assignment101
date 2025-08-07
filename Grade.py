@@ -1,7 +1,5 @@
-grade1 = int(input("English"))
-grade2 = int(input("Mathematics"))
-grade3 = int(input("Integreted Science"))
-grade4 = int(input("Social Studies"))
+grade1 = int(input("Enter Your Scores Here"))
+
 #English grade (grade1)
 if grade1 <= 100 and grade1 >= 90:
     print("A")
