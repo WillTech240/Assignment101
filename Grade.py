@@ -1,8 +1,12 @@
-# Get input grades for each subject
+# input grades for each subject
 grade1 = int(input("English: "))
 grade2 = int(input("Mathematics: "))
 grade3 = int(input("Integrated Science: "))
 grade4 = int(input("Social Studies: "))
+grade5 = int(input("Physics: "))
+grade6 = int(input("Chemistry: "))
+grade7 = int(input("Biology: "))
+grade8 = int(input("Elective Mathematics: "))
 
 # Define a function to get grade based on score
 def get_grade(score):
@@ -16,7 +20,11 @@ def get_grade(score):
         return "F9"
 
 # Print grades
-print("English Grade:", get_grade(grade1))
-print("Mathematics Grade:", get_grade(grade2))
-print("Integrated Science Grade:", get_grade(grade3))
-print("Social Studies Grade:", get_grade(grade4))
+print("English :", get_grade(grade1))
+print("Mathematics :", get_grade(grade2))
+print("Integrated Science :", get_grade(grade3))
+print("Social Studies :", get_grade(grade4))
+print("Physics :", get_grade(grade1))
+print("Chemistry :", get_grade(grade2))
+print("Biology :", get_grade(grade3))
+print("Elective Mathematics :", get_grade(grade4))
